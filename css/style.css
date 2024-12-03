@@ -1,0 +1,241 @@
+html{
+    scroll-behavior: smooth;
+    font-family: quita, sans-serif;
+    font-style: normal;
+    color: darkred;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+/* Header */
+
+header h1{
+    font-size: 15vw;
+    text-align: center;
+    padding-bottom: 10vh;
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header img{
+    width: 100%;
+    height : auto;
+}
+
+/* Navigation */
+nav{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 80px;
+    background-color: white;
+    border-color: darkred;
+}
+
+nav ol{
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li{
+    display: inline-block;
+    margin: 20px 0 0 10px;
+}
+
+nav ol li a{
+    color: darkred;
+    font-size: 1.6em;
+    text-decoration: none;
+    
+}
+
+nav ol li a:hover{
+    color:blanchedalmond;
+    }
+
+/* Main */
+main{
+    width: 80%;
+    margin: auto;
+    border-left: 2px solid darkred;
+    border-right: 2px solid darkred;
+    padding: 20px;
+    background-color: white;
+}
+
+main p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+hr{
+    border-color: darkred;
+    background-color: darkred;
+}
+
+/* Home Page */
+.icons1 img{
+    width: 5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.album{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 50px;
+    gap: 10px;
+   
+}
+
+.album img{
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.stream{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 200px;
+    gap: 10px;
+}
+
+.stream div button{
+    margin: auto;
+    display: block;
+}
+
+.stream div img{
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 100px;
+    gap: 10px;
+}
+
+.gallery div{
+    overflow: hidden;
+}
+
+.gallery div img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Album Page */
+.icons img{
+    width: 5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.album-cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 10px 10px;
+    gap: 10px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.album-cover div{
+    overflow: hidden;
+}
+
+.album-cover div img{
+    width: 100%;
+    height: 100%;
+}
+
+.tracklist ol li{
+    font-size: 1.5em;
+}
+
+.tracklist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 5px 100px;
+    gap: 10px;
+    align-items: center;
+}
+
+.tracklist div{
+    overflow: hidden;
+}
+
+.tracklist div img{
+    width: 100%;
+    height: 100%;
+}
+
+.tracklist button{
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+/* Merchandise Page */
+.merch{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 10px 10px;
+    gap: 10px;
+}
+
+.merch div{
+    overflow: hidden;
+    border: solid 1px darkred;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.merch div img{
+    margin-right: 10px;
+    width: 70%;
+    height: 60%;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer{
+    background-color:darkred;
+}
+
+footer h4{
+    color: white;
+    margin: 20px 0 0 10px;
+}
+
+footer li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+footer li a{
+    color: white;
+    display: inline-block;
+    margin: 20px 0 0 10px;
+    font-size: 1.5em;
+}
